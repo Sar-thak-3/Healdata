@@ -1,0 +1,25 @@
+{
+  "name": "i2c2",
+  "version": "1.0.0",
+  "description": "web app to track the diseases/health problems prevailing in the area",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webapp",
+    "tracker",
+    "health"
+  ],
+  "author": "sarthak",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "util": "^0.12.5"
+  }
+}
