@@ -1,0 +1,8 @@
+npm install express
+npm install cors
+npm install dotenv
+npm i -g heroku
+
+
+npm install react-plotly.js plotly.js
+npm install -g concurrently
