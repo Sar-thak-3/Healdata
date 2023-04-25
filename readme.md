@@ -7,7 +7,7 @@
 4. [ Working ](#working)
 5. [ Tech Stack Used ](#tech_stack)
 6. [ Future Initiatives ](#future_initiatives)
-7. [ Developers ](#developers)
+7. [ Links ](#links)
 
 
 <a name="problem_statement"></a>
@@ -55,23 +55,30 @@ ngo-app
 
 <a name="tech_stack"></a>
 # Tech Stack
-
+  --> Libraries of Node JS
+  ```
+  npm install cors
+  ```
+  ```
+  npm install dotenv
+  ```
+  ```
+  npm install express
+  ```
+ --> Libraries of React JS
+  ```
+  npm install react-plotly.js plotly.js
+  ```
+  ```
+  npm install -g concurrently
+  ```
+  --> MySQL Database
+  
 <a name="future_initiatives"></a>
 # Future Initiatives
 
-<a name="developer"></a>
-# Developers
+<a name="links"></a>
+# Links
+<a href="https://healdata-1a.web.app/">Website</a>
 
-Webapp created using Node JS and React JS single page website. MySQL database is used to store the yearly data of each locaion of every disease in that area.
-https://healdata-1a.web.app/ - Domain name where it is hosted, but there only static react app is hosted as dynamic deployement requires purchase of cloud MySQL and domain name.
-
-Some photos are uploaded in ppt to show how it works if it works as dynamic web app on the localhost!
-
-Packages installed for node JS
-npm install express
-npm install cors
-npm install dotenv
-
-Packages install for react JS
-npm install react-plotly.js plotly.js
-npm install -g concurrently
+<a href="">Presentation</a>
