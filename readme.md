@@ -23,7 +23,7 @@ HealData is aggregating the health data of each area in one web app. Data of eve
 <a name="directory"></a>
 # Directory Flow
 ```
-ngo-app
+HealData
 |--- backend
 |    |--- index.js             # Apis
 |    |--- package              # All packages used in backend(node js) 
