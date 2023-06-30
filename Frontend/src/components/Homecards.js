@@ -6,7 +6,7 @@ const Homecards = (props) => {
     const [allcards, setAllcards] = useState(null)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/api/health?location=${props.queries.location}&agerange=${props.queries.agegroup}`, {
+        fetch(`https://healdata-9scy.vercel.app/api/health?location=${props.queries.location}&agerange=${props.queries.agegroup}`, {
             method: "GET",
         }).then((response) => {
             return response.json()
