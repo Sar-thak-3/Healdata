@@ -12,7 +12,7 @@ const Updatedata = () => {
   const handleSubmit = (e) => {
     const { location, year, agerange, totalpopulation, totalsuffering, newdiagnosed, cured, disease } = info
     e.preventDefault();
-    fetch(`http://localhost:5000/api/postdata`, {
+    fetch(`https://healdata-9scy.vercel.app/api/postdata`, {
       method: "POST",
       headers: {
         'Content-Type': "application/json"
