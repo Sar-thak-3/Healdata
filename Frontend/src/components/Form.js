@@ -14,7 +14,7 @@ const Form = (props) => {
     }
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/api/options` , {
+        fetch(`https://healdata-9scy.vercel.app/api/options` , {
             method: "GET"
         }).then((response)=>{
             return response.json()
@@ -31,6 +31,7 @@ const Form = (props) => {
         setCredentials({ ...credentials, [e.target.name]: e.target.value })
     }
 
+    
     return (
         <div className='container w-25 p-3 my-5 d-flex align-items-center justify-content-center'>
             <form onSubmit={handleSubmit}>
