@@ -67,7 +67,7 @@ app.get('/api/health',async(req, res) => {
             var all = []
             for(let i=0;i<result.length;i++){
                 try{
-                    const resu =await query(`SELECT * FROM record WHERE disease="${Object.values(result[i])[0].toLowerCase()}" ORDER BY year ASC`);
+                    const resu =await query(`SELECT * FROM record WHERE disease="${Object.values(result[i])[0].toLowerCase()}" AND agerange="${req.query.agerange}" AND location="${req.query.location.toLowerCase()}" ORDER BY year ASC`);
                     let temp;
                     key = Object.values(result[i])[0]
                     temp = {[key]: resu}
